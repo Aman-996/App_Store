@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2886222 */
+  src: url('../fonts/iconfont.woff2?t=1635250384951') format('woff2'),
+       url('../fonts/iconfont.woff?t=1635250384951') format('woff'),
+       url('../fonts/iconfont.ttf?t=1635250384951') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cuowu:before {
+  content: "\e67d";
+}
+
+.icon-shaixuan:before {
+  content: "\e61e";
+}
+
+.icon-shangxiazhankai_o:before {
+  content: "\eb9a";
+}
+
+.icon-huidaodingbu:before {
+  content: "\e6e7";
+}
+
+.icon-shoucang:before {
+  content: "\e655";
+}
+
+.icon-dingbu:before {
+  content: "\e670";
+}
+
+.icon-youjiantou:before {
+  content: "\e617";
+}
+
+.icon-zuojiantou:before {
+  content: "\e669";
+}
+
+.icon-xianxingtubiaozhizuomoban-25:before {
+  content: "\e61c";
+}
+
+.icon-shanchu:before {
+  content: "\e603";
+}
+
+.icon-hanbaodaohang:before {
+  content: "\e682";
+}
+
+.icon-dingwei:before {
+  content: "\e675";
+}
+
+.icon-sousuo:before {
+  content: "\e60d";
+}
+
+.icon-shangcheng:before {
+  content: "\e60c";
+}
+

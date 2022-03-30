@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+/* 内容盒 */
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 750px;
+    min-width: 320px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.page .container {
+    overflow-y: auto;
+    flex: 1;
+}
+
+/* 顶部内容 */
+/* logo及搜索框 */
+.header {
+    padding-top: .86rem;
+    background-image: linear-gradient(180deg, #FF6040, #FF8A80);
+}
+
+.container .header .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: .9rem;
+    padding: 0 .21rem;
+}
+
+/* 顶部分类导航 */
+.bottom {
+    padding-left: .21rem;
+    padding-right: .27rem;
+    position: relative;
+}
+
+.bottom ul {
+    display: flex;
+}
+
+.bottom ul li {
+    margin-right: .37rem;
+}
+
+.bottom ul li a {
+    font-size: .26rem;
+    line-height: .64rem;
+    color: #fff;
+}
+
+.bottom ul .active {
+    font-size: .3rem;
+    font-weight: bold;
+
+    border-bottom: .04rem solid #fff;
+}
+
+.bottom ul .right {
+    position: absolute;
+    right: .27rem;
+}
+
+.bottom ul .right a, .bottom ul .right i{
+    font-size: .26rem;
+    line-height: .64rem;
+    color: #fff;
+}
+
+.bottom ul .right:before {
+    content: "";
+    display: inline-block;
+    width: .01rem;
+    height: .26rem;  
+    border-left: .01rem solid red;
+    box-shadow: -.05rem 0 .1rem -0.5rem rgba(0, 0, 0, .5);   
+}
+
+/* banner图 */
+.container .banner {
+    padding:.2rem .2rem 0 .2rem;
+}
+
+.container .banner img{
+    width: 100%;
+    height: auto;
+    border-radius: .07rem;
+    box-shadow: 0 0 .1rem .05rem rgba(255,0,0,.3);
+
+}
+
+/* 顶部导航栏 */
+.container .header .top a i:nth-of-type(1) {
+    font-size: .44rem;
+    color: #ffffff;
+}
+
+.container .header .top h1 img {
+    width: auto;
+    height: 0.48rem;
+}
+
+.header .top input[type=search] {
+    width: 3.38rem;
+    height: .62rem;
+    background-color: #fff;
+    border: .02rem solid #e6e6e6;
+    border-radius: .06rem;
+    text-indent: .68rem;
+
+    font-size: .28rem;
+    line-height: .62rem;
+    color: #333;
+}
+
+.container .header .top form {
+    position: relative;
+}
+
+.container .header .top form i {
+    position: absolute;
+    top: .15rem; 
+    left: .23rem;
+    font-size: .32rem;
+    color: #9a9a9a;
+}
+
+.container .header .top i:nth-of-type(2) {
+    font-size: .42rem;
+    color: #fff;
+}
+
+/* input占位符 */
+::-webkit-input-placeholder {
+    font-size: .28rem;
+    color: #999;
+}
+
+::-moz-placeholder {
+    font-size: .28rem;
+    color: #999;
+}
+
+:-ms-input-placeholder {
+    font-size: .28rem;
+    color: #999;
+}
+
+::-ms-input-placeholder {
+    font-size: .28rem;
+    color: #999;
+}
+
+::placeholder {
+    font-size: .28rem;
+    color: #999;
+}
+
+
+
+/* 底部内容 */
+.footer {
+    flex-shrink: 0;
+    height: 1.38rem;
+    border-top: 1px solid #ccc;
+    box-shadow: 0rem -.05rem .1rem .05rem rgba(0, 0, 0,.2);
+}
+
+.footer ul {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100%;
+    font-size: .2rem;
+    line-height: .22rem;
+}
+
+.footer ul li {
+    text-align: center;
+}
+
+.footer ul div {
+    height: .43rem;
+}
+
+.footer ul li div>img {
+    width: auto;
+    height: 100%;
+}
+
+.footer ul p {
+    margin-top: .17rem;
+    font-size: .2rem;
+    line-height: .22rem;
+    color: #333333;
+    text-align: center;
+}
+
+.footer ul li a .active{
+    color: #ff6040;
+}

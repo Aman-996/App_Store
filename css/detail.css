@@ -1,0 +1,530 @@
+@charset "UTF-8";
+
+.container .header .top {
+    line-height: .73rem;
+}
+
+.container .header .top a:nth-of-type(1) {
+    font-size: .33rem;
+    color: #FFFFFF;
+}
+
+.container .header .top h2 {
+    font-size: .34rem;
+    color: #FFFFFF;
+    line-height: .73rem;
+
+}
+
+.container .header .top a:nth-of-type(2) {
+    font-size: .33rem;
+    color: #FFFFFF;
+}
+
+.container .header .bottom  ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .header .bottom {
+    padding: .4rem .74rem 0 .81rem;
+}
+
+.bottom ul li a {
+    font-size: .26rem;
+    color: #fff;
+}
+
+.bottom ul .active {
+    padding-bottom: .13rem;
+    border-bottom: .04rem solid #fff;
+}
+
+.bottom ul .active a{
+    font-size: .32rem;
+}
+
+/* 主要内容 */
+/* 主要内容一：banner图 */
+main .banner1 {
+    position: relative;
+}
+
+main .banner1 {
+    width: 7.5rem;
+    height: auto;
+}
+
+main .banner1 img {
+    width: 100%;
+    height: auto;
+}
+
+main .banner1 a:nth-of-type(2) {
+    display: inline-block;
+    width: .48rem;
+    height: .48rem;
+    background: url(../image_detail/icon_ahare@2x.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: .68rem;
+    right: .2rem;
+}
+
+main .banner1 span {
+    display: inline-block;
+    position: absolute;
+    bottom: .27rem;
+    right: .27rem;
+    width: 0.8rem;
+    height: 0.36rem;
+
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: .18rem;
+    font-size: .2rem;
+    color: #FBFBFB;
+    line-height: .36rem;
+    text-align: center;
+} 
+
+/* 洗面奶价格区 */
+main .price {
+    margin: .15rem .19rem .2rem .21rem;
+}
+
+main .price ul:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+}
+/* 第一行：价格 */
+main .price ul:nth-child(1) li:nth-child(1) span:nth-child(1) {
+    font-size: .28rem;
+    color: #FF6040;
+}
+
+main .price ul:nth-child(1) li:nth-child(1) span:nth-child(2) {
+    margin-right: .22rem;
+    font-size: .6rem;
+    color: #FF6040;
+    line-height: .69rem;
+}
+
+main .price ul:nth-child(1) li:nth-child(1) span:nth-child(3) {
+    font-size: .28rem;
+    color: #999999;
+    line-height: .51rem;
+}
+
+/* 收藏 */
+main .price ul:nth-child(1) li:nth-child(2) {
+    width: .68rem;
+    text-align: center;
+    padding-top: .11rem;
+}
+
+main .price ul:nth-child(1) li:nth-child(2) img {
+    width: 0.22rem;
+    height: auto;
+    padding-bottom: .06rem;
+}
+
+main .price ul:nth-child(1) li:nth-child(2) span {
+    font-size: .18rem;
+    color: #FE6141;
+}
+
+/* 第二排：标题及广告词 */
+main .price ul:nth-child(2) li:nth-child(1) h3 {
+    margin-bottom: .04rem;
+    font-size: .3rem;
+    color: #333333;
+    line-height: .49rem;
+}
+
+main .price ul:nth-child(2) li:nth-child(2) span {
+    font-size: .26rem;
+    color: #999999;
+}
+
+main .price ul:nth-child(2) li:nth-child(3) {
+    margin-top: .26rem;
+    margin-bottom: .2rem;
+    width:  1.66rem;
+    text-align: center;
+}
+
+main .price ul:nth-child(2) li:nth-child(3) span {
+    display: inline-block;
+    padding: 0 .17rem;
+    white-space: nowrap;
+    height: .32rem;
+    font-size: .16rem;
+    color: #FFFFFF;
+    line-height: .32rem;
+    background-color: #FF8066;
+
+}
+
+main .price ul:nth-child(2) li:nth-child(4) {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+
+main .price ul:nth-child(2) li:nth-child(4) span {
+    font-size: .18rem;
+    color: #A9A9A9;
+    line-height: .4rem;
+}
+
+main .price ul:nth-child(2) li:nth-child(4) a {
+    font-size: .18rem;
+    color: #FE6141;
+    line-height: .4rem;
+    white-space: nowrap;
+}
+
+/* 内容三：排行榜 */
+main .ranking {
+    width: 100%;
+    height: 1.09rem;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+main .ranking span:nth-of-type(1) {
+    display: inline-block;
+    margin-left: .01rem;
+    width: 100%;
+    height: .89rem;
+    background: url(../image_detail/ranking.png) no-repeat;
+    background-size: cover;
+}
+
+main .ranking img {
+    position: absolute;
+    top: .29rem;
+    left: .31rem;
+    width: .26rem;
+    height: auto;
+}
+
+main .ranking span:nth-of-type(2) {
+    position: absolute;
+    top: .33rem;
+    left: 1.87rem;
+    font-size: .26rem;
+    color: #000000;
+}
+
+/* 内容四：选购 */
+main .choose {
+    margin-top: .13rem;
+    padding-left: .37rem;
+}
+
+main .choose dt {
+    /* padding-right: .44rem; */
+    height: .83rem;
+    font-size: .24rem;
+    color: #262626;
+    line-height: .83rem;
+}
+
+main .choose dl:nth-child(2) {
+    width:6.21rem;
+}
+
+main .choose dd {
+    text-indent: .44rem;
+    border-bottom: .01rem solid #e6e6e6;
+}
+
+main .choose dd a:nth-child(1) {
+    font-size: .24rem;
+    color: #666666;
+    line-height: .83rem;
+}
+
+main .choose dd a:nth-child(2) {
+    padding-right: .29rem;
+    font-size: .17rem;
+    color: #cac3be;
+    line-height: .83rem;
+}
+
+main .choose dd .city::before {
+    content: "";
+    display: inline-block;
+    margin-left: .07rem;
+    margin-right: .1rem;
+    width: .21rem;
+    height: .25rem;
+    background: url(../image_detail/gps\ \(2\).png) no-repeat;
+    background-size: cover;
+}
+
+main .choose dd .city::after {
+    content: "该地区暂时缺货";
+    display: inline-block;
+    margin-left: .22rem;
+    color: #ff896e;
+}
+
+main .promise {
+    margin: .13rem .29rem 0 .37rem;
+}
+
+main .promise ul li {
+    float: left;
+    margin-left: .23rem;
+    font-size: .24rem;
+    color: #7e7e7e;
+    line-height: .72rem;
+}
+
+main .promise ul li::before {
+    content: "";
+    display: inline-block;
+    margin-right: .1rem;
+    width: 0.25rem;
+    height: 0.25rem;
+    background: url(../image_detail/true.png) no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+main .arrow a {
+    font-size: .17rem;
+    color: #cac3be;
+    line-height: .72rem;
+} 
+
+/* 图片详情 */
+.container .picture {
+    padding-top: .2rem;
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+}
+
+.container .picture img {
+    width: 100%;
+    height: auto;
+}
+
+/* 评价 */
+.container .assess {
+    padding-top: .09rem;
+    padding-bottom: .33rem;
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+}
+
+.container .assess main {
+    padding-right: .19rem;
+    padding-top: .33rem;
+    padding-left: .3rem;
+    height: 100%;
+    background-color: #fff;
+}
+
+.assess main header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.assess main header h3 {
+    font-size: .31rem;
+    color: #010101;
+    line-height: .65rem;
+}
+
+.assess main header a {
+    font-size: .28rem;
+    color: #FE581B;
+    line-height: .49rem;
+} 
+
+.assess main header a i {
+    font-size: .2rem;
+    color: #FE581B;
+}
+
+.assess main .tag {
+    margin-top: .16rem;
+}
+
+.assess main .tag a {
+    font-size: .26rem;
+    color: #000000;
+    line-height: .55rem;
+    border-radius: 27px;
+}
+
+.assess main .tag a:first-child{
+    display: inline-block;
+    margin-right: .21rem;
+    width: 2.59rem;
+    height: .55rem;
+    background-color: #ffebe9;
+    text-align: center;
+}
+
+.assess main .tag a:last-child{
+    display: inline-block;
+    width: 2.34rem;
+    height: .55rem;
+    background-color: #ffebe9;
+    text-align: center;
+}
+
+/* 评论区 */
+.assess main .cont {
+    margin-top: .41rem;
+    padding-bottom: .41rem;
+    border-bottom: .02rem solid #f6f6f6;
+}
+
+.assess main .cont .title {
+    display: flex;
+}
+
+.assess main .cont .title img {
+    margin-right: .19rem;
+    width: 0.74rem;
+    height: auto;
+}
+
+.assess main .cont .title span:nth-child(1) {
+    font-size: .28rem;
+    color: #000000;
+    line-height: .41rem;
+}
+
+.assess main .cont .title span:last-child {
+    font-size: .24rem;
+    color: #7F7F7F;
+    line-height: .36rem;
+}
+
+.assess main .cont p {
+    margin-top: .31rem;
+    font-size: .28rem;
+    color: #000000;
+    line-height: .36rem;
+}
+.assess .cont .bottom {
+    padding: 0;
+    margin-top: .33rem;
+}
+/* 买家秀 */
+.assess .show {
+    position: relative;
+
+    padding-top: .26rem;
+}
+
+.assess .show header h3{
+    line-height: .67rem;
+}
+
+.assess .show header a{
+    line-height: .52rem;
+}
+
+.assess .show .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.assess .show .bottom {
+    padding-left: 0;
+}
+
+.assess .show .bottom img {
+    margin-right: .1rem;
+    padding-top: .14rem;
+    padding-bottom: .38rem;
+    width: 1.65rem;
+    height: auto;
+    border-radius: .08rem;
+}
+
+.assess .show .picTop {
+    position: absolute;
+    bottom: .45rem;
+    right: 0rem;
+}
+
+.assess .show .picTop a {
+    display: block;
+    width: .6rem;
+    height: auto;
+}
+
+.assess .show .picTop img {
+    width: 100%;
+    height: auto;
+}
+
+/* 底部导航 */
+.footer {
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .left {
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+
+
+.footer .left img {
+    width: auto;
+    height: .4rem;
+    line-height: .56rem;
+}
+
+.footer .left p {
+    font-size: .2rem;
+    color: #333333;
+}
+
+.footer .right {
+    display: flex;
+    flex: 1;
+}
+
+.footer .right .shopCar {
+    width: 2.2rem;
+    height: 100%;
+    background-color: #FFCC66;
+    text-align: center;
+}
+
+.footer .right .buy {
+    width: 2.1rem;
+    height: 100%;
+    background-color: #FF6040;
+    text-align: center;
+}
+
+.footer .right .shopCar a {
+    font-size: .32rem;
+    color: #663014;
+    line-height: 1rem;
+}
+
+.footer .right .buy a {
+    font-size: .32rem;
+    color: #FFFFFF;
+    line-height: 1rem;
+}
+
+
+
+

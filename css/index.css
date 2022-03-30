@@ -1,0 +1,313 @@
+@charset "utf-8";
+
+/* banner图下导航栏 */
+.container .navbar {
+    height: 1.64rem;
+}
+
+.container .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+    height: 100%;
+    font-size: .2rem;
+    line-height: .49rem;
+}
+
+.container .navbar ul div {
+    height: 0.6rem;
+}
+
+.container .navbar ul img {
+    width: auto;
+    height: 100%;
+}
+
+.container .navbar ul p {
+    font-size: .2rem;
+    line-height: .49rem;
+    color: #333333;
+    text-align: center;
+}
+
+/* 主要内容一：限时秒杀 */
+main {
+    padding: 0 .21rem;
+    background-color: #f2f2f2;
+}
+
+main .cont1 {
+    display: flex;
+    padding-top: .2rem;
+}
+
+main .cont1 .left {
+    position: relative;
+    flex: 1;
+    width: 3.49rem;
+    height: 3.49rem;
+    padding-left: .19rem;
+    background: url(../image/card／plate／index／kingkong／big@2x.webp) no-repeat;
+    background-size: cover;
+}
+
+main .cont1 .left h2 {
+    font-size: .32rem;
+    color: #85A642;
+    line-height: .53rem;
+}
+
+main .cont1 .left .more {
+    position: absolute;
+    top: .28rem;
+    right: .28rem;
+    line-height: .36rem;
+}
+
+main .cont1 .left .more a {
+    display: inline-block;
+    font-size: .19rem;
+    color: #40403F;
+}
+
+main .cont1 .left .more i {
+    font-size: .19rem;
+    color: #40403F;
+}
+
+main .cont1 .left p {
+    margin: .05rem 0;
+    font-size: .19rem;
+    color: #B6CE82;
+    line-height: .29rem;
+}
+
+main .cont1 .left time span {
+    display: inline-block;
+    width: 0.32rem;
+    height: 0.36rem;
+    line-height: .36rem;
+    background:linear-gradient(180deg,#87A845 1%,#B0CB79 100%);
+    border-radius: 2px;
+    font-size: .18rem;
+    color: #fff;
+    text-align: center;
+}
+
+main .cont1 .left time i{
+    padding-left: .03rem;
+    font-size: .24rem;
+    color: #88A946;
+}
+
+main .cont1 .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: .09rem;
+}
+
+main .right .right_top {
+    flex: 1;
+    padding-top: .08rem;
+    padding-left: .2rem;
+    width: auto;
+    height: 1.7rem;
+    margin-bottom: .1rem;
+    background: url(../image/图层\ 36.webp) no-repeat;
+    background-size: cover;
+}  
+
+main .right h2 {
+    margin-bottom: .04rem;
+    font-size: .32rem;
+    color: #FF6040;
+    line-height: .55rem;
+}
+
+main .right p:nth-of-type(1) {
+    font-size: .19rem;
+    color: #FF9580;
+    line-height: .33rem;
+}
+
+main .right a {
+    display: inline-block;
+    height: 0.4rem;
+    background: linear-gradient(180deg, #FF6040 0%, #FF897F 100%);
+    border-radius: .04rem .2rem .2rem .04rem;
+    /* text-align: center; */
+    font-size: .18rem;
+    color: #fff;
+    line-height: .4rem;
+    text-indent: .12rem;
+}
+
+main .right a i {
+    font-size: .18rem;
+    color: #fff;
+    line-height: .4rem;
+}
+
+main .right .right_bottom {
+    flex: 1;
+    padding-top: .08rem;
+    padding-left: .2rem;
+    width: auto;
+    height: 1.7rem;
+    background: url(../image/图层\ 37.webp) no-repeat;
+    background-size: cover;
+}
+
+main .right .right_bottom h2 {
+    color: #B042FF;
+}
+
+main .right .right_bottom p {
+    color: #CA80FF;
+}
+
+main .right .right_bottom a {
+    background: linear-gradient(180deg, #B042FF 0%, #F58BFF 100%);
+}
+
+/* 主要内容二：尖货预购 */
+main .cont2 {
+    margin-top: .2rem;
+    padding-bottom: .22rem;
+    background-color: #ffffff;
+}
+
+main .cont2_top {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .cont2_top a:first-child {
+    font-size: .32rem;
+    color: #FF6040;
+    line-height: .57rem;
+}
+
+main .cont2_top a:last-child {
+    padding-top: .14rem;
+    font-size: .28rem;
+    color: #999999;
+}
+
+main .cont2_bottom {
+    margin-top: .12rem;
+    margin-bottom: .22rem;
+}
+
+main .cont2_bottom ul {
+    margin-left: .2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .cont2_bottom ul img {
+    width: 1.6rem;
+    height: auto;
+} 
+
+main .cont2_bottom ul p {
+    font-size: .18rem;
+    color: #333;
+    line-height: .52rem;
+    text-align: center;
+}
+
+/* 主要内容三：精选推荐 */
+main .cont3 {
+    padding-top: .12rem;
+}
+
+main .cont3 h2 {
+    padding-bottom: .16rem;
+    font-size: .28rem;
+    color: #222;
+    line-height: .62rem;
+    text-align: center;
+}
+
+main .cont3 h2::before {
+    content: "";
+    display: inline-block;
+    margin-bottom: .05rem;
+    margin-right: .18rem;
+    width: 0.32rem;
+    height: 0.06rem;
+    background-color: #222;
+    
+}
+
+main .cont3 h2::after {
+    content: "";
+    display: inline-block;
+    margin-bottom: .05rem;
+    margin-left: .18rem;
+    width: 0.32rem;
+    height: 0.06rem;
+    background-color: #222;
+    
+}
+
+main .cont3 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+main .cont3 ul .pic1 img {
+    width: 3.45rem;
+    height: auto;
+}
+
+main .cont3 ul .pic_cont {
+    margin-bottom: .17rem;
+    background-color: #fff;
+    border-bottom-left-radius: .07rem;
+    border-bottom-right-radius: .07rem;
+    overflow: hidden;
+}
+
+main .cont3 ul .pic_cont h3 {
+    padding-top: .22rem;
+    padding-left: .1rem;
+    font-size: .28rem;
+    color: #222;
+    line-height: .5rem;
+}
+
+main .cont3 ul .pic_cont p {
+    padding-left: .1rem;
+    font-size: .24rem;
+    color: #7E7E7E;
+    line-height: .32rem;
+}
+
+main .cont3 ul .pic_cont span {
+    padding-left: .1rem;
+
+    margin: .1rem .13rem .14rem 0;
+    font-size: .26rem;
+    color: #FF6040;
+    line-height: .57rem;
+}
+
+main .cont3 ul .pic_cont del {
+    font-size: .26rem;
+    color: #9E9E9E;
+    line-height: .57rem;
+}
+
+main .cont3 ul .pic_cont i {
+    margin-bottom: .43rem;
+    padding-left: 1.47rem;
+    font-size: .3rem;
+    color: #9a7a49;
+}

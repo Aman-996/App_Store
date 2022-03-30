@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+/* 内容盒 */
+.page {
+    padding: .2rem;
+
+    max-width: 750px;
+    min-width: 320px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.container h1 {
+    margin-bottom: .65rem;
+    width: 3.63rem;
+    height: auto;
+}
+
+.container h1 img {
+    width: 100%;
+    height: auto;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form input[type=tel] {
+    border-bottom: .02rem solid #f7f7f7;
+    height: 0.67rem;
+}
+
+.container form input[placeholder] {
+    font-size: .23rem;
+    color: #6e6e6e;
+}
+
+.container form .num {
+    padding-bottom: .09rem;
+    border-bottom: .02rem solid #f7f7f7;
+    height: 0.67rem;
+}
+
+.container form input[placeholder=验证码] {
+    margin-top: .27rem;
+}
+
+.container form .num input[value=获取验证码] {
+    margin-top: .2rem;
+    
+    padding: .07rem .18rem;
+    font-size: .18rem;
+    color: #FFFFFF;
+    line-height: .34rem;
+    background-color: #CCCCCC;
+}
+
+.container form input[name=login] {
+    margin-top: .41rem;
+    width: 6.1rem;
+    height: 0.98rem;
+    background-color: #CCCCCC;
+}
+
+.container form input[value=登录] {
+    font-size: .3rem;
+    color: #fff;
+}
+
+
+
